@@ -82,7 +82,7 @@ RUN rm -rf ~/tmp_build
 
 USER viper
 WORKDIR /home/viper
-RUN git clone -b v${VIPER_VERSION} https://github.com/botherder/viper.git && \
+RUN git clone -b v${VIPER_VERSION} https://github.com/CLEAR-seclab/viper && \
   mkdir /home/viper/workdir
 
 USER root
